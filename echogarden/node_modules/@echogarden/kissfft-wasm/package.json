@@ -1,0 +1,24 @@
+{
+  "name": "@echogarden/kissfft-wasm",
+  "version": "0.1.1",
+  "description": "KISS FFT library, compiled to WASM. Intended for use with Echogarden.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "kissfft.cjs",
+  "files": [
+    "kissfft.cjs",
+    "kissfft.wasm",
+    "COPYING",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Echogarden project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echogarden-project/kissfft-wasm"
+  },
+  "license": "BSD-3-Clause"
+}
