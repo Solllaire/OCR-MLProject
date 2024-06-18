@@ -10,6 +10,7 @@ from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
 
+# Insert variable with your token here
 TOKEN = bot_token
 
 dp = Dispatcher()

@@ -4,6 +4,8 @@ import pytesseract
 from Source import file_name, textfile, resultfile
 import os
 
+# Source contains token, and names for 3 txt files
+# Vital to create by yourself
 
 def OCR_method(path):
     files = textfile+' '+resultfile
